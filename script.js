@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 clearInterval(timer);
                 stat.textContent = target + '%';
             }
-        }, 20);
+        }, 45);
     });
 });
 
@@ -40,7 +40,7 @@ stats.forEach(stat => {
             clearInterval(timer);
             stat.textContent = target + '+';
         }
-    }, 20);
+    }, 45);
 });
 
 // Add this to your existing script.js file
